@@ -19,12 +19,12 @@ namespace Onion.Application
 
         public void Create(ArticleCategoryCreate command)
         {
-            _articleCategoryRepository.Create(command);
+            //_articleCategoryRepository.Create(command);
         }
 
         public List<ArticleCategoryViewModel> List()
         {
-            
+            return null;
         }
     }
 }
