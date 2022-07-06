@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Application", "Onion.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Infrastracture.EFCore", "Onion.Infrastracture.EFCore\Onion.Infrastracture.EFCore.csproj", "{FC577E36-9719-4C22-BFAE-B45D15E35669}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_0_Framework", "_0_Framework\_0_Framework.csproj", "{B64C4E20-F6A4-41DE-88DF-ECBEC4E31DD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Infrastracture", "Onion.Infrastracture\Onion.Infrastracture.csproj", "{C7B69A1E-5029-4383-808A-080BF86F2344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Presentation.MVC", "Onion.Presentation.MVC\Onion.Presentation.MVC.csproj", "{E2D00CF8-D19A-4617-81E6-91FE7C1427DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +39,18 @@ Global
 		{FC577E36-9719-4C22-BFAE-B45D15E35669}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC577E36-9719-4C22-BFAE-B45D15E35669}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC577E36-9719-4C22-BFAE-B45D15E35669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64C4E20-F6A4-41DE-88DF-ECBEC4E31DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64C4E20-F6A4-41DE-88DF-ECBEC4E31DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64C4E20-F6A4-41DE-88DF-ECBEC4E31DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64C4E20-F6A4-41DE-88DF-ECBEC4E31DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B69A1E-5029-4383-808A-080BF86F2344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B69A1E-5029-4383-808A-080BF86F2344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B69A1E-5029-4383-808A-080BF86F2344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B69A1E-5029-4383-808A-080BF86F2344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D00CF8-D19A-4617-81E6-91FE7C1427DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D00CF8-D19A-4617-81E6-91FE7C1427DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D00CF8-D19A-4617-81E6-91FE7C1427DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D00CF8-D19A-4617-81E6-91FE7C1427DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

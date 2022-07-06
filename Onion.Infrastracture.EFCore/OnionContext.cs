@@ -10,7 +10,7 @@ namespace Onion.Infrastracture.EFCore
 {
     public  class OnionContext : DbContext
     {
-        public DbSet<ArticleCategory> ArticleCategory { get; set; };
+        public DbSet<ArticleCategory> ArticleCategory { get; set; }
         public OnionContext(DbContextOptions<OnionContext> options) : base(options)
         {
 

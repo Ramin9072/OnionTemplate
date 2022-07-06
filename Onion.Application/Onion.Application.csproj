@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Onion.Application.Contract\Onion.Application.Contract.csproj" />
     <ProjectReference Include="..\Onion.Infrastracture.EFCore\Onion.Infrastracture.EFCore.csproj" />
+    <ProjectReference Include="..\_0_Framework\_0_Framework.csproj" />
   </ItemGroup>
 
 </Project>
