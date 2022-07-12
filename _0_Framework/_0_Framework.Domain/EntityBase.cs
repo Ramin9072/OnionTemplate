@@ -1,6 +1,6 @@
 ﻿namespace _0_Framework._0_Framework.Domain
 {
-    public class EntityBase<T>
+    public class EntityBase<T> // U can implement any type in domain properties for ID property
     {
         public EntityBase()
         {

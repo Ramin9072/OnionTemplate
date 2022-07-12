@@ -6,6 +6,7 @@ builder.Services.AddControllersWithViews();
 var connection = builder.Configuration.GetConnectionString("Onion");
 
 ArticleCategoryBootstraper.Configure(builder.Services, connection);
+EmailBootstraper.Configure(builder.Services, connection);
 
 var app = builder.Build();
 
