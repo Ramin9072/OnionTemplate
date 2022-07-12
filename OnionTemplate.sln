@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Domain", "Onion.Domain\Onion.Domain.csproj", "{1BBF228B-5387-4436-9E0B-1ACC6152F2C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Domain", "Onion.Domain\Onion.Domain.csproj", "{1BBF228B-5387-4436-9E0B-1ACC6152F2C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Application.Contract", "Onion.Application.Contract\Onion.Application.Contract.csproj", "{186410D1-69A0-4A04-B072-8A2A178D963C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Application.Contract", "Onion.Application.Contract\Onion.Application.Contract.csproj", "{186410D1-69A0-4A04-B072-8A2A178D963C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Application", "Onion.Application\Onion.Application.csproj", "{D58AD001-FE4E-41E5-979C-25E14F035D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Application", "Onion.Application\Onion.Application.csproj", "{D58AD001-FE4E-41E5-979C-25E14F035D6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Infrastracture.EFCore", "Onion.Infrastracture.EFCore\Onion.Infrastracture.EFCore.csproj", "{FC577E36-9719-4C22-BFAE-B45D15E35669}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Infrastracture.EFCore", "Onion.Infrastracture.EFCore\Onion.Infrastracture.EFCore.csproj", "{FC577E36-9719-4C22-BFAE-B45D15E35669}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_0_Framework", "_0_Framework\_0_Framework.csproj", "{B64C4E20-F6A4-41DE-88DF-ECBEC4E31DD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_0_Framework", "_0_Framework\_0_Framework.csproj", "{B64C4E20-F6A4-41DE-88DF-ECBEC4E31DD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Infrastracture", "Onion.Infrastracture\Onion.Infrastracture.csproj", "{C7B69A1E-5029-4383-808A-080BF86F2344}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Infrastracture", "Onion.Infrastracture\Onion.Infrastracture.csproj", "{C7B69A1E-5029-4383-808A-080BF86F2344}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Presentation.MVC", "Onion.Presentation.MVC\Onion.Presentation.MVC.csproj", "{E2D00CF8-D19A-4617-81E6-91FE7C1427DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Presentation.MVC", "Onion.Presentation.MVC\Onion.Presentation.MVC.csproj", "{E2D00CF8-D19A-4617-81E6-91FE7C1427DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionWebApi", "OnionWebApi\OnionWebApi.csproj", "{702F6A20-7DDB-42AE-B776-6DA04D795ACC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E2D00CF8-D19A-4617-81E6-91FE7C1427DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2D00CF8-D19A-4617-81E6-91FE7C1427DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2D00CF8-D19A-4617-81E6-91FE7C1427DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702F6A20-7DDB-42AE-B776-6DA04D795ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702F6A20-7DDB-42AE-B776-6DA04D795ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702F6A20-7DDB-42AE-B776-6DA04D795ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702F6A20-7DDB-42AE-B776-6DA04D795ACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

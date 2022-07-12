@@ -1,4 +1,5 @@
 ﻿
+using _0_Framework._0_Framework.Domain.Domain;
 using _0_Framework.BaseResultState;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,6 +18,7 @@ namespace Onion.Infrastracture
             services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
             services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
             services.AddTransient<IResultDetails, ResultDetails>();
+            services.AddTransient<IBaseWorkFlowRepository, BaseWorkFlowRepository>();
 
             services.AddDbContext<OnionContext>(p => p.UseSqlServer(connectionString));
         }

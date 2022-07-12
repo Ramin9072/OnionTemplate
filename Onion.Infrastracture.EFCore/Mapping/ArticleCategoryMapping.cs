@@ -19,6 +19,12 @@ namespace Onion.Infrastracture.EFCore.Mapping
             builder.Property(p => p.Id).IsRequired(true);
             builder.Property(p => p.DateTime);
             builder.Property(p => p.IsActive);
+            //
+            builder.Property(p=>p.Name).IsUnicode(false);
+            builder.Property(p => p.Name).HasComment("COMMEND IN DATABASE");
+            builder.Property(p => p.Name).HasColumnOrder(1);
+            builder.HasKey(p => p.Id).HasName("KEY_ID"); 
+
         }
     }
 }
