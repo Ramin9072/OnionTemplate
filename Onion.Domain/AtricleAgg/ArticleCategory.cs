@@ -2,7 +2,7 @@
 
 namespace Onion.Domain.AtricleAgg;
 
-public class ArticleCategory : EntityBase
+public class ArticleCategory : EntityBase<long>
 {
     public ArticleCategory(string name) 
     {

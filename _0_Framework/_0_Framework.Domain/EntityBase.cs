@@ -1,13 +1,13 @@
 ﻿namespace _0_Framework._0_Framework.Domain
 {
-    public class EntityBase
+    public class EntityBase<T>
     {
         public EntityBase()
         {
             DateTime = DateTime.Now;
         }
 
-        public long Id { get; set; }
+        public T Id { get; set; }
         public DateTime DateTime { get; set; }
 
     }

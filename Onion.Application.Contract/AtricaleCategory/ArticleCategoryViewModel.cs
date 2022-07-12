@@ -3,7 +3,7 @@
 namespace Onion.Application.Contract.AtricaleCategory
 {
 
-    public class ArticleCategoryViewModel : EntityBase
+    public class ArticleCategoryViewModel : EntityBase<long>
     {
         public string Name { get; set; }
         public bool IsActive { get; set; }
