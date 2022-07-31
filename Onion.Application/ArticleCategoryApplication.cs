@@ -21,7 +21,7 @@ namespace Onion.Application
             _baseWorkFlowRepository = baseWorkFlowRepository;
         }
 
-        public ResultDetails Create(ArticleCategoryCreate command)
+        public ResultDetails Create(ArticleCategoryCreateDTO command)
         {
             try
             {
@@ -39,11 +39,11 @@ namespace Onion.Application
             
         }
 
-        public List<ArticleCategoryViewModel> List()
+        public List<ArticleCategoryDTO> List()
         {
             try
             {
-                return _articleCategoryRepository.List().Select(p => new ArticleCategoryViewModel
+                return _articleCategoryRepository.List().Select(p => new ArticleCategoryDTO
                 {
                     Id = p.Id,
                     Name = p.Name,

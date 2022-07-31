@@ -22,7 +22,7 @@ namespace OnionWebApi.Controllers
 
         public IHttpActionResult GetArticleCategory()
         {
-            List<ArticleCategoryViewModel> categories = new List<ArticleCategoryViewModel>();
+            List<ArticleCategoryDTO> categories = new List<ArticleCategoryDTO>();
             try
             {
                 categories = _articleCategoryApplication.List();

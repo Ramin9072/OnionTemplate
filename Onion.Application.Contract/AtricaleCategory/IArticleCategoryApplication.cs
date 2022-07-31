@@ -4,7 +4,7 @@ namespace Onion.Application.Contract.AtricaleCategory
 {
     public interface IArticleCategoryApplication
     {
-        ResultDetails Create(ArticleCategoryCreate command);
-        List<ArticleCategoryViewModel> List();
+        ResultDetails Create(ArticleCategoryCreateDTO command);
+        List<ArticleCategoryDTO> List();
     }
 }
