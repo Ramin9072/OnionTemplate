@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Onion.Application.Contract.Email
 {
-    public class EmailSend
+    public class EmailSendDTO
     {
         public string Subject { get; set; }
         public string EmailAddress { get; set; }

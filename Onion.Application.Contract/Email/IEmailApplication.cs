@@ -2,8 +2,8 @@
 {
     public interface IEmailApplication
     {
-        Task  EmailSendAsync(EmailSend command);
-        Task EmailResivedAsync(EmailResived command);
+        Task  EmailSendAsync(EmailSendDTO command);
+        Task EmailResivedAsync(EmailResivedDTO command);
 
     }
 }

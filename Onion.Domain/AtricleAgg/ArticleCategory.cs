@@ -9,10 +9,10 @@ public class ArticleCategory : EntityBase<long>
         Name = name;
         IsActive = true;
     }
-    public void Edit(string name)
+    public void Edit(string name , bool isActive)
     {
         Name = name;
-        IsActive = true;
+        IsActive = isActive;
     }
 
     public string Name { get; set; }

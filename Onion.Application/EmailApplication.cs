@@ -10,12 +10,12 @@ namespace Onion.Application
 {
     public class EmailApplication : IEmailApplication
     { 
-        public async Task EmailSendAsync(EmailSend command)
+        public async Task EmailSendAsync(EmailSendDTO command)
         {
             await SendEmailAsync(command);
             Console.WriteLine();
         }
-        private Task<string> SendEmailAsync(EmailSend command)
+        private Task<string> SendEmailAsync(EmailSendDTO command)
         {
             Email email = new Email(command.Subject, command.EmailAddress, command.Content);
             return Task.Run(() =>
@@ -24,7 +24,7 @@ namespace Onion.Application
                 return "EMAIL SEND";
             });
         }
-        public async Task EmailResivedAsync(EmailResived command)
+        public async Task EmailResivedAsync(EmailResivedDTO command)
         {
           
         }

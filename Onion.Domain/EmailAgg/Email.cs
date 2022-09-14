@@ -8,7 +8,9 @@ namespace Onion.Domain.EmailAgg
 {
     public class Email
     {
-        public Email(string subject, string emailAddress, string content)
+        public Email(string subject, 
+            string emailAddress, 
+            string content)
         {
             Subject = subject;
             EmailAddress = emailAddress;
