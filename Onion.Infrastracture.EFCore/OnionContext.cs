@@ -1,10 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Onion.Domain.AtricleAgg;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Onion.Infrastracture.EFCore.Mapping;
 
 namespace Onion.Infrastracture.EFCore
 {
@@ -18,7 +14,7 @@ namespace Onion.Infrastracture.EFCore
         // for mapping
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            var assembly = typeof(ArticleCategory).Assembly;
+            var assembly = typeof(ArticleCategoryMapping).Assembly;
             modelBuilder.ApplyConfigurationsFromAssembly(assembly); 
             base.OnModelCreating(modelBuilder);
         }

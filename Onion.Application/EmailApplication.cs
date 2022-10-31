@@ -10,9 +10,9 @@ namespace Onion.Application
 {
     public class EmailApplication : IEmailApplication
     { 
-        public async Task EmailSendAsync(EmailSendDTO command)
+        public async Task EmailSendAsync(EmailSendDTO command,out string message)
         {
-            await SendEmailAsync(command);
+            message = await SendEmailAsync(command);
             Console.WriteLine();
         }
         private Task<string> SendEmailAsync(EmailSendDTO command)
